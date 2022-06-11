@@ -1,0 +1,449 @@
+{
+   "intents":[
+      {
+         "keyword":[
+            "chào", "hello", "hi"   
+         ],
+         "patterns":[
+            "Hi",
+            "Chào",
+            "Chào cậu",
+            "Hello",
+            "Xin chào",
+            "Hey",
+            "Any body there?",
+            "Có ai không?"
+         ],
+         "responses":[
+            "Xin chào, tớ có thể giúp gì cho cậu?",
+            "Xin chào, bot Nana có mặt OvO"
+         ]
+      },
+      {
+         "keyword":[
+            "giỏi", "bằng giỏi", "loại giỏi"   
+         ],
+         "patterns":[
+            "Để được bằng giỏi thì ra trường phải được bao điểm?",
+            "Điểm để được bằng giỏi"
+         ],
+         "responses":[
+            "3.2 đến 3.6 là GPA để được bằng giỏi khi ra trường nhé!"
+         ]
+      },
+      {
+         "keyword":[
+            "đổi điểm", "quy đổi", "trung bình tích lũy", "hệ 4", "hệ 10", "qui"
+         ],
+         "patterns":[
+            "Cậu có thể cho tớ biết điểm hệ 10 quy đổi về hệ 4 không?",
+            "Điểm trung bình tích lũy tính như thế nào vậy?",
+            "Tớ không biết đổi điểm sang hệ 4",
+            "Cách đổi điểm trung bình tích lũy",
+            "Quy đổi từ hệ 10 sang hệ 4",
+            "Đổi điểm GPA"
+         ],
+         "responses":[
+            "Bạn cần chia 2.5 để đổi từ hệ 10 sang hệ 4.\nBảng quy đổi điểm như sau:\n0 - 1,9: F\n2.0 - 3.9: F+\n4.0 - 4.4: D\n4.5 - 5.4: D+\n5.5 - 5.9: C\n6.0 - 6.9: C+\n7.0 - 7.9: B\n8.0 - 8.4: B+\n8.5 - 9.4: A\n9.5 - 10.0: A+"
+         ]
+      },
+      {
+         "keyword":[
+            "đồ án tốt nghiệp"   
+         ],
+         "patterns":[
+            "Bao nhiêu điểm thì qua đồ án tốt nghiệp?",
+            "Mình được 5.5 có qua đồ án không?",
+            "Điểm để qua học phần đồ án tốt nghiệp"
+         ],
+         "responses":[
+            "Học phần đồ án tốt nghiệp được coi là qua nếu đạt 5.5/10 nhé."
+         ]
+      },
+      {
+         "keyword":[
+            "học lại", "trượt môn", "thi lại", "qua môn"   
+         ],
+         "patterns":[
+            "Bình thường bao nhiêu điểm phải học lại một môn?",
+            "Khi nào thì trượt môn?",
+            "Được bao nhiêu điểm thì phải học lại?",
+            "Dưới bao nhiêu điểm là trượt môn?",
+            "Bao nhiêu điểm thì phải thi lại?",
+            "Bao nhiêu điểm thì qua môn?"
+         ],
+         "responses":[
+            "Để qua môn thì tối thiểu bạn phải đạt được điểm trung bình môn là 4.0 nhé!"
+         ]
+      },
+	   {
+         "keyword":[
+            "tiền", "học phí", "viettelpay", "vtp"
+         ],
+         "patterns":[
+            "Tiền học một tín là bao nhiêu?",
+            "Học phí một kỳ là bao nhiêu?"
+         ],
+         "responses":[
+            "Một tín chỉ trong chương trình đào tạo hệ đại trà là 354.000đ (không quá 11,7 triệu VNĐ/sinh viên). \nMột môn học khoảng 2-3 tín.\n Hiện nhà trường chỉ dùng 1 hình thức duy nhất là đóng học phí Online qua Viettelpay - http:/\nhaphoc.utc.edu.vn/sites\nhaphoc.utc.edu.vn/files/GTVT%20-%20HD%20c%C3%A0i.pdf ). Bạn nhớ kiểm tra thời gian đóng học nếu không sẽ bị phạt tiện nộp chậm nhé!"
+         ]
+      },
+      {
+         "keyword":[
+            "lịch học", "thời khoá biểu", "thời gian biểu"
+         ],
+         "patterns":[
+            "Lịch học?"
+         ],
+         "responses":[
+            "Cập nhật trên trang https://qldt.utc.edu.vn/ nhé!"
+         ]
+      },
+      {
+         "keyword":[
+            "bye", "tạm biệt"   
+         ],
+         "patterns":[
+            "Tạm biệt",
+            "Bye",
+            "Tớ off đây",
+            "Goodbye",
+            "Hẹn gặp sau nhé",
+            "Bye bye",
+            "Pye"
+         ],
+         "responses":[
+            "Bye bye~",
+            "Tạm biệt. Hẹn gặp cậu sau."
+         ]
+      },
+	{
+         "keyword":[
+            "thẻ thư viện"
+         ],
+         "patterns":[
+
+         ],
+         "responses":[
+            "Đối với sinh viên hệ chính quy, thẻ thư viện là thẻ sinh viên tích hợp 3 trong 1 (thẻ ATM, thẻ thư viện, thẻ sinh viên)! \nMỗi sinh viên được mượn tối đa 10 cuốn giáo trình và 2 cuốn sách tham khảo/lần! \nBạn nhớ kiểm tra nội quy thư viện nhé!"
+         ]
+      },
+	{
+         "keyword":[
+            "mượn sách", "nội quy thư viện", "thư viện"
+         ],
+         "patterns":[
+
+         ],
+         "responses":[
+            "Thư viện trường ở tòa nhà A8, đọc nội quy thư viện tại: \n https://lib.utc.edu.vn\noi-quy "
+         ]
+      },
+	{
+         "keyword":[
+            "thẻ tháng", "thẻ xe", "thẻ xe bus", "giá vé xe bus"
+         ],
+         "patterns":[
+
+         ],
+         "responses":[
+            "Tân sinh viên có thể đăng ký thẻ xe ngay tại trường! \n Có hai hình thức đăng ký thẻ xe bus là online tại trang sis.utc hoặc offline mang giấy tờ cần thiết (xác nhận sinh viên) qua bến xe Kim Mã. \n Thẻ đã mất không được cấp lại mà phải làm thẻ mới!"
+         ]
+      },
+	{
+         "keyword":[
+            "Xe bus", "số xe"
+         ],
+         "patterns":[
+
+         ],
+         "responses":[
+            "Hai chuyến xe bus thông dụng nhất từ ký túc xá đến cơ sở trường ở Cầu Giấy là số 26 và số 27. \n Vé xe mặc định 7000 đ"
+         ]
+      },
+	{
+         "keyword":[
+            "ký túc xá", "trọ"
+         ],
+         "patterns":[
+
+         ],
+         "responses":[
+            "Địa chỉ ký túc xá: Số 99, Nguyễn Chí Thanh, P. Láng Hạ, Q. Đống Đa. \n Số điện thoại liên hệ: 0243834246 \n \nSinh viên đăng ký ký túc xá tại địa chỉ trên, xem thêm hướng dẫn và nội quy ký túc xá tại https://hotrosinhvien.utc.edu.vn/tin-tuc/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-k%C3%BD-t%C3%BAc-x%C3%A1 \n Di chuyển thông dụng giữa ký túc xá - cơ sở chính của trường là xe bus số 26 và 27."
+         ]
+      },
+	{
+         "keyword":[
+            "nhà để xe", "trông xe"
+         ],
+         "patterns":[
+
+         ],
+         "responses":[
+            "Cơ sở Cầu Giấy có hai nhà để xe tại mỗi cổng, hai nhà để xe thông nhau. \n Giá xe máy: 3000đ\n Giá xe đạp: 2.000đ\n Mức giá áp dụng cho ca sáng và ca chiều, còn ca tối +1000đ. Tham khảo mức giá tại nhà để xe. \n Bạn có thể đăng ký vé tháng cho tiết kiệm nếu cần lên trường nhiều nhé!"
+         ]
+      },
+	{
+         "keyword":[
+            "đồng phục"
+         ],
+         "patterns":[
+            "mua đồng phục ở đâu?",
+            "đồng phục bao tiền"
+         ],
+         "responses":[
+            "Đồng phục trường cần mua đầu năm bao gồm đồng phục cho bộ môn Giáo dục thể chất và áo khoác đồng phục."
+         ]
+      },	
+      {
+         "keyword":[
+            "đăng ký", "học phần", "môn", "hủy"
+         ],
+         "patterns":[
+
+         ],
+         "responses":[
+            "Việc đăng ký học phần được thực hiện online tại web quản lý đào tạo, sinh viên hủy học phần tới phòng 110 A9.\nSinh viên kiểm tra kết quả đăng ký và hủy bỏ học phần trên http://qldt.utc.edu.vn \nCác môn, học phần cần học và tự chọn sẽ được thông báo bởi cố vấn học tập, các bạn nhớ theo dõi nhé!"
+         ]
+      },	
+      {
+         "keyword":[
+            "học lại"
+         ],
+         "patterns":[
+            "bao điểm thì phải học lại?"
+         ],
+         "responses":[
+            "Tùy theo hệ số điểm mỗi môn, sẽ có điều kiện học lại khác nhau. Song cách kiểm tra kết quả dễ và chính xác nhất là Tra cứu điểm trên web quản lý đào tạo.\n Sinh viên có thể đăng ký học lại ngay sau khi học ký cũ vừa kết thúc hoặc có thể đăng ký mở lớp khi tìm đủ sĩ số tại văn phòng."
+         ]
+      },
+	{
+         "keyword":[
+            "học bổng", "trợ cấp xã hội", "khuyến khích", "tiền"
+         ],
+         "patterns":[
+            "Điều kiện để được miễn giảm học phí",
+            "Trợ cấp hộ nghèo"
+         ],
+         "responses":[
+            "Liên hệ với cố vấn học tập để biết điều kiện nhận trợ cấp xã hội \n Sinh viên thuộc diện xét Học bổng khuyến khích học tập khi đạt các tiêu chuẩn trong học kỳ tính điểm như sau:\n+ Số tín chỉ đăng ký học lần thứ nhất (không tính tín chỉ ngoại ngữ) từ 15 tín chỉ trở lên.\n+ Điểm trung bình chung học kỳ (TBCHK) theo thang điểm 4 và điểm rèn luyện từ loại khá trở lên.\n+ Kết quả các học phần giáo dục thể chất, giáo dục quốc phòng và học phần tính điểm lần thứ nhất đạt từ 5,0 trở lên (theo thang điểm 10).\n+ Không bị kỉ luật từ mức khiển trách trở lên.\nSau khi nhận được Danh sách sinh viên đạt học bổng và TCXH từ phòng CTCT&SV, phòng TCKT sẽ ra thông báo và chuyển tiền vào tài khoản cá nhân cho sinh viên. \n Mọi thắc mắc về học phí có thể hỏi trực tiếp tại Phòng TCKT, hoặc qua hộp thư trên trang QLĐT, hoặc gọi điên thoại trực tiếp."
+         ]
+      },	{
+         "keyword":[
+            "câu lạc bộ", "clb", "club", "sinh viên tình nguyện", "hội học sinh", "đoàn", "hội", "hội sinh viên"
+         ],
+         "patterns":[
+            "Trường có bao nhiêu clb?",
+            "Câu lạc bộ của trường có hoạt động không?"
+         ],
+         "responses":[
+            "Sao bạn lại không nghe kĩ buổi giới thiệu của các anh chị khóa trên!\n Có làm thì mới có ăn nhé! Nhưng vì mình tốt nên mình cho bạn xin nguyên liệu nè: https://hotrosinhvien.utc.edu.vn/tin-tuc/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn/ho%E1%BA%A1t-%C4%91%E1%BB%99ng-sinh-vi%C3%AAn-%E2%80%93-t%E1%BB%95-ch%E1%BB%A9c-%C4%91o%C3%A0n-h%E1%BB%99i"
+         ]
+      },
+	{
+         "keyword":[
+            "ngôn ngữ", "ngoại ngữ", "tiếng Anh", "tiếng Pháp", "tiếng Nga", "tiếng Anh chuyên ngành", "A1", "A2", "B1", "B2"
+         ],
+         "patterns":[
+            "Trường có dạy ngoại ngữ không?",
+            "Ngoài Tiếng Anh ra có những ngôn ngữ nào?",
+            "Tín chỉ tiếng Anh",
+            "toeic"
+         ],
+         "responses":[
+            "Sinh viên được chọn học một trong ba ngoại ngữ: Anh văn, Nga văn và Pháp văn.\n Chương trình học ngoại ngữ được cấu trúc thành ba phần:\n \n- Phần ngoại ngữ tăng cường:\n\nHọc phần ngoại ngữ cấp độ A1;\nHọc phần ngoại ngữ cấp độ A2.\nCác học phần tương ứng với bậc học A1, A2 là các học phần ngoại ngữ tăng cường được thiết kế ngoài chương trình đào tạo của các ngành. Nếu sinh viên đã đạt trình độ ngoại ngữ cấp độ A2 thì không cần tham dự các khóa học ngoại ngữ tăng cường. \nSinh viên phải đạt được trình độ ngoại ngữ bậc A1, mới được đăng ký học vào lớp học phần bậc A2. Kết quả thi học phần ngoại ngữ A1 và A2 được sử dụng làm điều kiện tiên quyết để sinh viên đăng ký học cấp độ tiếp theo, không được tính vào kết quả học tập chung của khóa học. \n\n- Phần ngoại ngữ cơ bản: bao gồm 01 học phần ngoại ngữ cấp độ B1 với thời lượng 04 tín chỉ. Đây là học phần ngoại ngữ bắt buộc trong chương trình đào tạo. Sinh viên cần phải hoàn thành học phần ngoại ngữ cấp độ B1 (đạt trình độ ngoại ngữ cấp độ B1) khi tốt nghiệp. Sau khi đạt được trình độ ngoại ngữ A2, sinh viên mới được đăng ký học vào lớp học phần B1. \nKết quả thi học phần ngoại ngữ B1 được tính vào kết quả học tập chung của toàn khóa.\n- Phần ngoại ngữ chuyên ngành: Sinh viên thuộc tất cả các ngành đào tạo của trường có học phần ngoại ngữ chuyên ngành được thiết kế thống nhất chung là 03 tín chỉ trong chương trình đào tạo, nội dung của học phần phù hợp và đáp ứng yêu cầu đối với từng ngành và từng lĩnh vực.\n(*) Nhà trường sẽ tổ chức thi đánh giá trình độ ngoại ngữ cho tân sinh viên, những tân sinh viên tham gia và đạt kết quả cao sẽ được miễn tín chỉ ngoại ngữ mức tăng cường và cơ bản."
+         ]
+      },
+	{
+         "keyword":[
+            "phòng đào tạo", "văn phòng", "đoàn thanh niên", "hội sinh viên"
+         ],
+         "patterns":[
+		    "Văn phòng đoàn ở đâu?",
+            "Vị trí phòng đào tạo"
+         ],
+         "responses":[
+            "Danh sách địa chỉ và số điện thoại các đơn vị thực hiện công tác sinh viên, bạn đừng ngại hỏi bạn bè và thầy cô những điều mình chưa biết nhé!\n \thttps://hotrosinhvien.utc.edu.vn/tin-tuc/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn/%C4%91%E1%BB%8Ba-ch%E1%BB%89-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-c%C3%A1c-%C4%91%C6%A1n-v%E1%BB%8B-th%E1%BB%B1c-hi%E1%BB%87n-c%C3%B4ng-t%C3%A1c-sinh-vi%C3%AAn "
+         ]
+      },
+	{
+         "keyword":[
+            "địa chỉ", "cầu giấy", "nguyễn chí thanh"
+         ],
+         "patterns":[
+		      "Trường ở đâu vậy trời?"
+         ],
+         "responses":[
+            "Trường Đại học Giao thông Vận tải Hà Nội có 2 cơ sở: \n + Cơ sở chính: Số 3 Đ. Cầu Giấy, Láng Thượng, Đống Đa\n + Cơ sở phụ kiêm ký túc xá: Số 99, Nguyễn Chí Thanh, P. Láng Hạ, Q. Đống Đa \n \n Hai trường chỉ cách nhau khoảng 3 km nên có gì nhầm trường đừng lo nhé bạn, cứ tuân thủ luật giao thông, cầu nhà gửi xe không đông mà quay xe!"
+         ]
+      },
+	{
+         "keyword":[
+            "nckh", "nghiên cứu khoa học"
+         ],
+         "patterns":[
+            "Nghiên cứu khoa học sos"
+         ],
+         "responses":[
+            "Các thông tin về nghiên cứu khoa học cho sinh viên sẽ được cố vấn lớp cập nhập, bạn có thể nhắn tin cho lớp trưởng và cố vấn để có thêm thông tin."
+         ]
+      },	{
+         "keyword":[
+            "giáo trình"
+         ],
+         "patterns":[
+            "Mua giáo trình ở đâu",
+            "cần giáo trình không",
+            "giáo trình bao tiền"
+         ],
+         "responses":[
+            "Giáo trình và tài liệu tham khảo phục vụ cho học tập và nghiên cứu của trường luôn có tại Nhà sách (địa chỉ phòng 105 nhà NN1) hoặc Phòng mượn (thư viện) tầng 7 nhà A8. \n Danh mực sách hiện có tại nhà sách xem tại: https://lib.utc.edu.vn/content/danh-m%E1%BB%A5c-s%C3%A1ch-hi%E1%BB%87n-c%C3%B3-t%E1%BA%A1i-nh%C3%A0-s%C3%A1ch \n Giờ mở cửa: 8h.15 - 16h.45"
+         ]
+      },
+	{
+         "keyword":[
+            "vay", "tín dụng"
+         ],
+         "patterns":[
+            "Yay tiền thế nào ạ",
+            "Cần tiền gấp sos"
+         ],
+         "responses":[
+            "Vay vốn tín dụng đào tạo là hình thức cho vay của Ngân hàng chính sách xã hội đối với học sinh, sinh viên có hoàn cảnh khó khăn đang theo học tại các trường đào tạo thuộc hệ thống giáo dục quốc dân.\n Hướng dẫn chung và mức vốn cho vay xem tại https://www.utc.edu.vn/tin-hoat-dong-chung/ph%C3%B2ng-c%C3%B4ng-t%C3%A1c-ch%C3%ADnh-tr%E1%BB%8B-v%C3%A0-sinh-vi%C3%AAn/ch%E1%BA%BF-%C4%91%E1%BB%99-ch%C3%ADnh-s%C3%A1ch-sinh-vi%C3%AAn/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn "
+         ]
+      },	
+      {
+         "keyword":[
+            "canteen", "căng tin", "đồ ăn", "đồ uống", "thức ăn", "thức uống", "đói", "khát"
+         ],
+         "patterns":[
+            "Ăn ở đâu?",
+            "Căng tin ở đâu?",
+            "Mua đồ ăn chỗ nào?"
+         ],
+         "responses":[
+            "Cần làm đầy bụng? Hãy đến tầng 3 tòa A5!"
+         ]
+      },
+      {
+         "keyword":[
+         ],
+         "patterns":[
+
+         ],
+         "responses":[
+            "404 not found"
+         ]
+      },
+      {
+         "keyword":[
+         "wifi"],
+         "patterns":[
+            "Trường có wifi không ạ?",
+            "Mật khẩu wifi"
+         ],
+         "responses":[
+            "Đừng kỳ vọng vào wifi của trường bạn ạ."
+         ]
+      },
+	{
+         "keyword":[
+            "thẻ sinh viên"
+         ],
+         "patterns":[
+            "cấp lại thẻ sinh viên"
+         ],
+         "responses":[
+            "Trong trường hợp sinh viên làm mất thẻ sinh viên, in sai thông tin do lỗi của sinh viên:\n - Nộp lệ phí làm lại theo quy định. \n - Đăng ký làm lại thẻ tại P03 - Nhà A9 vào Sáng thứ 5, Sáng thứ 6 hàng tuần. \n - Thẻ sinh viên sẽ được cấp lại sau 10 ngày kể từ ngày đăng ký. \n \n Trong trường hợp thẻ bị in sai thông tin không do lỗi sinh viên, làm lại thẻ không cần nộp lệ phí."
+         ]
+      },
+	{
+         "keyword":[
+            "bảo hiểm y tế", "bhyt"
+         ],
+         "patterns":[
+            "nộp bảo hiểm y tế ở đâu"
+         ],
+         "responses":[
+            "* Mọi sinh viên bắt buộc tham gia bảo hiểm y tế. Với người thuộc diện miễn tham gia xin báo với cố vấn học tập của lớp.\n\n Sinh viên tham gia Bảo hiểm thân thể chỉ đóng phí duy nhất một lần trong suốt khóa học.\nMọi vấn đề liên quan đến Bảo hiểm y tế, sinh viên đến Trạm Y tế (P1011 nhà N2) để được hỗ trợ."
+         ]
+      },
+	{
+         "keyword":[
+            "trạm y tế", "phòng y tế"
+         ],
+         "patterns":[
+            "Phòng y tế ở đâu?"
+         ],
+         "responses":[
+            "Trạm y tế có hai cơ sở: \n- Cơ sở 1 tại khu giảng đường – Trường Đại học GTVT – Phường Láng Thượng - Đống Đa – Hà Nội. \nSố điện thoại: 04.37668900.\n- Cơ sở 2 tại địa chỉ số 99 Nguyễn Chí Thanh - Đống Đa – Hà Nội ( Khu Ký túc xá ) \nSố điện thoại: 04.38358811;"
+         ]
+      },
+	{
+         "keyword":[
+            "khám sức khỏe"
+         ],
+         "patterns":[
+            "bao giờ khám sức khỏe"
+         ],
+         "responses":[
+            "Nhà trường sẽ có đợt khám sức khỏe đầu năm dành cho tân sinh viên. Bạn nhớ kiểm tra lịch nhé!"
+         ]
+      },
+	{
+         "keyword":[
+            "mất mật khẩu", "quên pass", "pass email", "gmail trường", "pass qldt", "tài khoản qldt"
+         ],
+         "patterns":[
+            "quên pass email sos"
+         ],
+         "responses":[
+            "Khi bị mất mật khẩu email, sinh viên phải trực tiếp mang thẻ SV đến Văn phòng Hỗ trợ sinh viên, P105 - Nhà N2 để được cấp lại.\n Khi bị mất mật khẩu trang quản lý đào tạo, sinh viên mang thẻ đến phòng ĐTĐH P106 - nhà A9 để được cấp lại."
+         ]
+      },
+	{
+         "keyword":[
+            "bảo lưu"
+         ],
+         "patterns":[
+            "bảo lưu kết quả học tập"
+         ],
+         "responses":[
+            "1. Sinh viên được quyền viết đơn gửi Hiệu trưởng xin nghỉ học tạm thời và bảo lưu kết quả đã học trong các trường hợp sau:\n\na) Được điều động vào các lực lượng vũ trang;\n\nb) Bị ốm hoặc tai nạn phải điều trị thời gian dài, nhưng phải có giấy xác nhận của cơ quan y tế;\n\nc) Vì nhu cầu cá nhân. Trường hợp này, sinh viên phải học ít nhất một học kỳ ở trường, không rơi vào các trường hợp bị buộc thôi học quy định tại Điều 16 của Quy chế này và phải đạt điểm trung bình chung tích lũy không dưới 2,00. Thời gian nghỉ học tạm thời vì nhu cầu cá nhân phải được tính vào thời gian học chính thức quy định tại khoản 3 Điều 6 của Quy chế này.\n\n2. Sinh viên nghỉ học tạm thời, khi muốn trở lại học tiếp tại trường, phải viết đơn gửi Hiệu trưởng ít nhất một tuần trước khi bắt đầu học kỳ mới."
+         ]
+      },	{
+         "keyword":[
+            "cảnh cáo", "buộc thôi học", "đuổi học"
+         ],
+         "patterns":[
+            "khi nào bị đuổi học"
+         ],
+         "responses":[
+            "1. Cảnh báo kết quả học tập được thực hiện theo từng học kỳ, nhằm giúp cho sinh viên có kết quả học tập kém biết và lập phương án học tập thích hợp để có thể tốt nghiệp trong thời hạn tối đa được phép theo học chương trình. Việc cảnh báo kết quả học tập của sinh viên được dựa trên các điều kiện sau:\n\na) Điểm trung bình chung tích luỹ đạt dưới 1,20 đối với sinh viên năm thứ nhất, dưới 1,40 đối với sinh viên năm thứ hai, dưới 1,60 đối với sinh viên năm thứ ba hoặc dưới 1,80 đối với sinh viên các năm tiếp theo và cuối khoá;\n\nb) Điểm trung bình chung học kỳ đạt dưới 0,80 đối với học kỳ đầu của khóa học, dưới 1,00 đối với các học kỳ tiếp theo;\n\nc) Tổng số tín chỉ của các học phần bị điểm F còn tồn đọng tính từ đầu khoá học đến thời điểm xét vượt quá 24 tín chỉ;\n\nd) Sinh viên có số tín chỉ đăng ký học trong học kỳ nhỏ hơn số tín chỉ tối thiểu quy định tại khoản 3 điều 10.\n\n2. Sau mỗi học kỳ sinh viên bị buộc thôi học nếu thuộc một trong các trường hợp sau:\n\na) Có số lần cảnh báo kết quả học tập 3 lần liên tiếp.\n\nb) Sinh viên không đăng ký học hoặc không đóng học phí trong học kỳ đó.\n\nc) Vượt quá thời gian tối đa được phép học tại trường quy định tại khoản 3 điều 6 trong quy chế này.\n\nd) Bị kỷ luật lần thứ hai vì lý do đi thi hộ hoặc nhờ người thi hộ theo quy định tại khoản 2 điều 29 của quy chế này hoặc bị kỷ luật ở mức xóa tên khỏi danh sách sinh viên của trường.\n\nSinh viên hệ chính quy thuộc diện bị thôi học do kết quả học tập yếu được xem xét chuyển sang hệ vừa làm vừa học nếu có nguyện vọng. Kết quả học tập của các học phần đã tích lũy được xem xét để bảo lưu và chuyển điểm theo các học phần trong chương trình đào tạo vừa làm vừa học."
+         ]
+      },
+	{
+         "keyword":[
+            "song bằng", "hai chương trình", "hai bằng"
+         ],
+         "patterns":[
+            "Điều kiện để học cùng lúc hai chương trình là gì?"
+         ],
+         "responses":[
+            "1. Học cùng lúc hai chương trình dành cho sinh viên có đủ điều kiện theo quy định tại khoản 2 Điều này và có nhu cầu đăng ký học thêm một chương trình thứ hai để khi tốt nghiệp được cấp hai văn bằng.\n\n\n\n2. Điều kiện để học cùng lúc hai chương trình:\n\n\n\na) Ngành đào tạo chính ở chương trình thứ hai phải khác ngành đào tạo chính ở chương trình thứ nhất;\n\n\n\nb) Sau khi đã kết thúc học kỳ thứ nhất năm học đầu tiên của chương trình thứ nhất và sinh viên không thuộc diện xếp hạng học lực yếu;\n\n\n\nc) Trong quá trình sinh viên học cùng lúc hai chương trình, nếu điểm trung bình chung học kỳ đạt dưới 2,00 thì phải dừng học thêm chương trình thứ hai ở học kỳ tiếp theo.\n\n\n\n3. Thời gian tối đa được phép học đối với sinh viên học cùng lúc hai chương trình là thời gian tối đa quy định cho chương trình thứ nhất, quy định tại khoản 3 Điều 6 của Quy chế này. Khi học chương trình thứ hai, sinh viên được bảo lưu điểm của những học phần có nội dung và khối lượng kiến thức tương đương có trong chương trình thứ nhất.\n\n\n\n4. Sinh viên chỉ được xét tốt nghiệp chương trình thứ hai, nếu có đủ điều kiện tốt nghiệp ở chương trình thứ nhất."
+         ]
+      },
+	{
+         "keyword":[
+            "chuyển trường"
+         ],
+         "patterns":[
+            ""
+         ],
+         "responses":[
+            "1. Sinh viên được xét chuyển trường nếu có các điều kiện sau đây:\n\n\n\na) Trong thời gian học tập, nếu gia đình chuyển nơi cư trú hoặc sinh viên có hoàn cảnh khó khăn, cần thiết phải chuyển đến trường gần nơi cư trú của gia đình để thuận lợi trong học tập;\n\n\n\nb) Xin chuyển đến trường có cùng ngành hoặc thuộc cùng nhóm ngành với ngành đào tạo mà sinh viên đang học;\n\n\n\nc) Được sự đồng ý của Hiệu trưởng trường xin chuyển đi và trường xin chuyển đến;\n\n\n\nd) Không thuộc một trong các trường hợp không được phép chuyển trường quy định tại khoản 2 Điều này.\n\n\n\n2. Sinh viên không được phép chuyển trường trong các trường hợp sau:\n\n\n\na) Sinh viên đã tham dự kỳ thi tuyển sinh theo đề thi chung, nhưng không trúng tuyển vào trường hoặc có kết quả thi thấp hơn điểm trúng tuyển của trường xin chuyển đến;\n\n\n\nb) Sinh viên thuộc diện nằm ngoài vùng tuyển quy định của trường xin chuyển đến;\n\n\n\nc) Sinh viên năm thứ nhất và năm cuối khóa;\n\n\n\nd) Sinh viên đang trong thời gian bị kỷ luật từ cảnh cáo trở lên.\n\n\n\n3. Thủ tục chuyển trường:\n\n\n\na) Sinh viên xin chuyển trường phải làm hồ sơ xin chuyển trường theo quy định của nhà trường;\n\n\n\nb) Hiệu trưởng trường có sinh viên xin chuyển đến quyết định tiếp nhận hoặc không tiếp nhận; quyết định việc học tập tiếp tục của sinh viên, công nhận các học phần mà sinh viên chuyển đến được chuyển đổi kết quả và số học phần phải học bổ sung, trên cơ sở so sánh chương trình ở trường sinh viên xin chuyển đi và trường xin chuyển đến."
+         ]
+      }
+   ]
+}
+
