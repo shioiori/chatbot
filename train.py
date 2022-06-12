@@ -27,16 +27,16 @@ def stem(sentence):
             new_string = new_string + char
     return new_string
 
-# tính tỉ lệ xuất hiện của câu hỏi
+# tính tỉ lệ xuất hiện 
 
 keys = []
 
 def init():
     for intent in data['intents']:
         row = []
-        for key in intent['keyword']:
-            key = word_tokenize(key)
-            row.extend(key)
+        for sentence in intent['patterns']:
+            sentence = word_tokenize(stem(sentence))
+            row.extend(sentence)
         keys.append(row)
 
 # tìm tỉ lệ phù hợp nhất
@@ -49,12 +49,14 @@ def get_respond(question):
         label = data['intents'].index(intent)
         for word in question:
             if word in keys[label]:
-                rate += 1  
-            if word in intent['patterns']:
+                rate += 0.75 
+            if word in intent['keywords']:
                 rate + 0.25
         rate_calc.append(rate)            
         	
     max_value = max(rate_calc)	
+    if max_value == 0:
+        return "404 not found"
     label = rate_calc.index(max_value)
     rand = random.randint(0,len(data['intents'][label]['responses'])-1)
     return data['intents'][label]['responses'][rand]

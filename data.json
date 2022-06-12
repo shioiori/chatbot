@@ -1,7 +1,7 @@
 {
    "intents":[
       {
-         "keyword":[
+         "keywords":[
             "chào", "hello", "hi"   
          ],
          "patterns":[
@@ -20,7 +20,7 @@
          ]
       },
       {
-         "keyword":[
+         "keywords":[
             "giỏi", "bằng giỏi", "loại giỏi"   
          ],
          "patterns":[
@@ -32,7 +32,7 @@
          ]
       },
       {
-         "keyword":[
+         "keywords":[
             "đổi điểm", "quy đổi", "trung bình tích lũy", "hệ 4", "hệ 10", "qui"
          ],
          "patterns":[
@@ -48,7 +48,7 @@
          ]
       },
       {
-         "keyword":[
+         "keywords":[
             "đồ án tốt nghiệp"   
          ],
          "patterns":[
@@ -61,7 +61,7 @@
          ]
       },
       {
-         "keyword":[
+         "keywords":[
             "học lại", "trượt môn", "thi lại", "qua môn"   
          ],
          "patterns":[
@@ -77,7 +77,7 @@
          ]
       },
 	   {
-         "keyword":[
+         "keywords":[
             "tiền", "học phí", "viettelpay", "vtp"
          ],
          "patterns":[
@@ -89,7 +89,7 @@
          ]
       },
       {
-         "keyword":[
+         "keywords":[
             "lịch học", "thời khoá biểu", "thời gian biểu"
          ],
          "patterns":[
@@ -100,7 +100,7 @@
          ]
       },
       {
-         "keyword":[
+         "keywords":[
             "bye", "tạm biệt"   
          ],
          "patterns":[
@@ -118,7 +118,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "thẻ thư viện"
          ],
          "patterns":[
@@ -129,7 +129,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "mượn sách", "nội quy thư viện", "thư viện"
          ],
          "patterns":[
@@ -140,7 +140,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "thẻ tháng", "thẻ xe", "thẻ xe bus", "giá vé xe bus"
          ],
          "patterns":[
@@ -151,7 +151,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "Xe bus", "số xe"
          ],
          "patterns":[
@@ -162,7 +162,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "ký túc xá", "trọ"
          ],
          "patterns":[
@@ -173,7 +173,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "nhà để xe", "trông xe"
          ],
          "patterns":[
@@ -184,7 +184,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "đồng phục"
          ],
          "patterns":[
@@ -196,7 +196,7 @@
          ]
       },	
       {
-         "keyword":[
+         "keywords":[
             "đăng ký", "học phần", "môn", "hủy"
          ],
          "patterns":[
@@ -207,7 +207,7 @@
          ]
       },	
       {
-         "keyword":[
+         "keywords":[
             "học lại"
          ],
          "patterns":[
@@ -218,7 +218,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "học bổng", "trợ cấp xã hội", "khuyến khích", "tiền"
          ],
          "patterns":[
@@ -229,7 +229,7 @@
             "Liên hệ với cố vấn học tập để biết điều kiện nhận trợ cấp xã hội \n Sinh viên thuộc diện xét Học bổng khuyến khích học tập khi đạt các tiêu chuẩn trong học kỳ tính điểm như sau:\n+ Số tín chỉ đăng ký học lần thứ nhất (không tính tín chỉ ngoại ngữ) từ 15 tín chỉ trở lên.\n+ Điểm trung bình chung học kỳ (TBCHK) theo thang điểm 4 và điểm rèn luyện từ loại khá trở lên.\n+ Kết quả các học phần giáo dục thể chất, giáo dục quốc phòng và học phần tính điểm lần thứ nhất đạt từ 5,0 trở lên (theo thang điểm 10).\n+ Không bị kỉ luật từ mức khiển trách trở lên.\nSau khi nhận được Danh sách sinh viên đạt học bổng và TCXH từ phòng CTCT&SV, phòng TCKT sẽ ra thông báo và chuyển tiền vào tài khoản cá nhân cho sinh viên. \n Mọi thắc mắc về học phí có thể hỏi trực tiếp tại Phòng TCKT, hoặc qua hộp thư trên trang QLĐT, hoặc gọi điên thoại trực tiếp."
          ]
       },	{
-         "keyword":[
+         "keywords":[
             "câu lạc bộ", "clb", "club", "sinh viên tình nguyện", "hội học sinh", "đoàn", "hội", "hội sinh viên"
          ],
          "patterns":[
@@ -241,7 +241,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "ngôn ngữ", "ngoại ngữ", "tiếng Anh", "tiếng Pháp", "tiếng Nga", "tiếng Anh chuyên ngành", "A1", "A2", "B1", "B2"
          ],
          "patterns":[
@@ -255,7 +255,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "phòng đào tạo", "văn phòng", "đoàn thanh niên", "hội sinh viên"
          ],
          "patterns":[
@@ -267,7 +267,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "địa chỉ", "cầu giấy", "nguyễn chí thanh"
          ],
          "patterns":[
@@ -278,7 +278,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "nckh", "nghiên cứu khoa học"
          ],
          "patterns":[
@@ -288,7 +288,7 @@
             "Các thông tin về nghiên cứu khoa học cho sinh viên sẽ được cố vấn lớp cập nhập, bạn có thể nhắn tin cho lớp trưởng và cố vấn để có thêm thông tin."
          ]
       },	{
-         "keyword":[
+         "keywords":[
             "giáo trình"
          ],
          "patterns":[
@@ -301,7 +301,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "vay", "tín dụng"
          ],
          "patterns":[
@@ -313,7 +313,7 @@
          ]
       },	
       {
-         "keyword":[
+         "keywords":[
             "canteen", "căng tin", "đồ ăn", "đồ uống", "thức ăn", "thức uống", "đói", "khát"
          ],
          "patterns":[
@@ -326,7 +326,7 @@
          ]
       },
       {
-         "keyword":[
+         "keywords":[
          ],
          "patterns":[
 
@@ -336,7 +336,7 @@
          ]
       },
       {
-         "keyword":[
+         "keywords":[
          "wifi"],
          "patterns":[
             "Trường có wifi không ạ?",
@@ -347,7 +347,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "thẻ sinh viên"
          ],
          "patterns":[
@@ -358,7 +358,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "bảo hiểm y tế", "bhyt"
          ],
          "patterns":[
@@ -369,7 +369,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "trạm y tế", "phòng y tế"
          ],
          "patterns":[
@@ -380,7 +380,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "khám sức khỏe"
          ],
          "patterns":[
@@ -391,7 +391,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "mất mật khẩu", "quên pass", "pass email", "gmail trường", "pass qldt", "tài khoản qldt"
          ],
          "patterns":[
@@ -402,7 +402,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "bảo lưu"
          ],
          "patterns":[
@@ -412,7 +412,7 @@
             "1. Sinh viên được quyền viết đơn gửi Hiệu trưởng xin nghỉ học tạm thời và bảo lưu kết quả đã học trong các trường hợp sau:\n\na) Được điều động vào các lực lượng vũ trang;\n\nb) Bị ốm hoặc tai nạn phải điều trị thời gian dài, nhưng phải có giấy xác nhận của cơ quan y tế;\n\nc) Vì nhu cầu cá nhân. Trường hợp này, sinh viên phải học ít nhất một học kỳ ở trường, không rơi vào các trường hợp bị buộc thôi học quy định tại Điều 16 của Quy chế này và phải đạt điểm trung bình chung tích lũy không dưới 2,00. Thời gian nghỉ học tạm thời vì nhu cầu cá nhân phải được tính vào thời gian học chính thức quy định tại khoản 3 Điều 6 của Quy chế này.\n\n2. Sinh viên nghỉ học tạm thời, khi muốn trở lại học tiếp tại trường, phải viết đơn gửi Hiệu trưởng ít nhất một tuần trước khi bắt đầu học kỳ mới."
          ]
       },	{
-         "keyword":[
+         "keywords":[
             "cảnh cáo", "buộc thôi học", "đuổi học"
          ],
          "patterns":[
@@ -423,7 +423,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "song bằng", "hai chương trình", "hai bằng"
          ],
          "patterns":[
@@ -434,7 +434,7 @@
          ]
       },
 	{
-         "keyword":[
+         "keywords":[
             "chuyển trường"
          ],
          "patterns":[
